@@ -48,7 +48,7 @@ So now we can make our wildcards *more specific* by using ranges. This is super 
 Take a real-world example. We can use ranges to check whether a list of credit card numbers are Visa or Mastercard, and not American Express.
 
 ```plain-text
-/[45]\d+/
+/^[45]\d+/
 ```
 
 The cards must either start with a `4` or a `5` and be followed by one or more digit.
